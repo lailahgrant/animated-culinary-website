@@ -23,6 +23,12 @@ function changeImg(img) {
     foodImg.src = `../img/${img}`;
 }
 
+/**
+ * Swap food description
+ */
+// function changeInfo(info) {
+//     const foodInfo = document.querySelector('.heading');
 
+// }
 
 
