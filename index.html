@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasty Food E-commerce</title>
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- The navigation and menu -->
+    <header>
+      <a href="#" class="logo">
+        <i class="fi fi-rr-restaurant"></i>
+      </a>
+      <div class="search" onclick="toggleSearch();">
+        <i class="fi fi-rr-search"></i>
+        <input type="text" placeholder="SEARCH" />
+      </div>
+      <div class="bar">
+        <ul class="nav">
+          <li><a href="#">Breakfast</a></li>
+          <li><a href="#">Lunch</a></li>
+          <li><a href="#">Dinner</a></li>
+        </ul>
+        <div class="check-out">
+          <i class="fi fi-rr-shopping-bag"></i>
+          <span class="number">4</span>
+        </div>
+        <div class="menu">
+          <i class="fi fi-rs-menu-dots-vertical"></i>
+        </div>
+      </div>
+      <ul class="nav-mobile">
+        <li><a href="#">Breakfast</a></li>
+        <li><a href="#">Lunch</a></li>
+        <li><a href="#">Dinner</a></li>
+      </ul>
+    </header>
+
+    <!-- Banner section -->
+    <div class="banner">
+      <div class="content">
+        <h1>
+          Food
+          <i class="fi fi-rr-heart-half-stroke"></i>
+        </h1>
+        <h2>Lovers</h2>
+      </div>
+      <div class="imgBox" onclick="toggleFlip()">
+        <div class="food">
+          <img src="./img/food-3.jpeg" alt="plate of fish" class="food-img" />
+        </div>
+        <div class="description">
+          <h3>Lorem ipsum dolor</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quae
+            fuga eum! Corporis nulla nam vitae magnam aliquam qui dolorum, id
+            quaerat ipsa quos labore alias eos, iste optio ex?
+          </p>
+          <ul class="download">
+            <li><img src="./img/apple.png" alt="download-on-iOS" /></li>
+            <li><img src="./img/google.png" alt="download-on-google" /></li>
+          </ul>
+          <span class="price">$35.49</span>
+        </div>
+      </div>
+      <!-- learn more button -->
+      <a href="#" class="btn" onclick="toggleFlip()">
+        Learn More <i class="fi fi-rs-issue-loupe"></i>
+      </a>
+      <!-- order button -->
+      <span class="order"><i class="fi fi-rr-shopping-bag-add"></i></span>
+      <!-- food selections -->
+      <div class="selections">
+        <div class="circle">
+          <div class="option one" onclick="changeImg('food-1.jpeg')">
+            <img src="./img/food-1.jpeg" alt="plate-of-salmon-and-salads" />
+          </div>
+          <div class="option two" onclick="changeImg('food-2.jpeg')">
+            <img src="./img/food-2.jpeg" alt="plate-of-asparagus-and-steak" />
+          </div>
+          <div class="option three" onclick="changeImg('food-3.jpeg')">
+            <img src="./img/food-3.jpeg" alt="plate-of-fish" />
+          </div>
+        </div>
+        <h1>Healthy Life</h1>
+      </div>
+    </div>
+    <!-- Social media icons -->
+    <ul class="social">
+      <li><i class="fi fi-brands-facebook"></i></li>
+      <li><i class="fi fi-brands-twitter-alt"></i></li>
+      <li><i class="fi fi-brands-instagram"></i></li>
+    </ul>
+    <!-- footer -->
+    <footer>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Lailah Grant.</span></strong> All rights
+        reserved 
+      </div>
+    </footer>
+
+    <!-- script cdns -->
+    <script src="js/script.js"></script>
+    <!-- js cdns -->
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"
+    ></script>
+  </body>
+</html>
