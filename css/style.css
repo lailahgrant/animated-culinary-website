@@ -241,7 +241,7 @@ header{
     position: absolute;
     display: flex;
     align-items: center;
-    font-size: 6rem;
+    font-size: 5rem;
     line-height: 1rem;
     letter-spacing: 2px;
     top:45%;
@@ -259,7 +259,7 @@ header{
     position: absolute;
     display: flex;
     align-items: center;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Berkshire Swash',cursive;
     line-height: 1em;
     letter-spacing: 5px;
